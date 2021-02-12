@@ -1,7 +1,6 @@
 import requests
 
 response = requests.get('https://cspweb--evgenyrahman.repl.co')
-response = requests.get('')
 print(response.text)
 if(response.status_code == 200):
   response = requests.get('https://cspweb--evgenyrahman.repl.co/admin.php')
